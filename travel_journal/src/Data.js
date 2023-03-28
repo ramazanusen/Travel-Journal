@@ -1,4 +1,4 @@
-const Data = [
+const data = [
     {
         title: "Mount Fuji",
         location: "Japan",
@@ -27,3 +27,5 @@ const Data = [
         imageUrl: "https://source.unsplash.com/3PeSjpLVtLg"
     }
 ]
+
+export {data}
