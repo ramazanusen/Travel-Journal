@@ -11,13 +11,7 @@ function App() {
       <>
         <Main
           id={destination.id}
-          title={destination.title}
-          location={destination.location}
-          googleMapsLink={destination.googleMapsLink}
-          startDate={destination.startDate}
-          endDate={destination.endDate}
-          description={destination.description}
-          imageUrl={destination.imageUrl}
+          {...destination}
         />
       </>
       

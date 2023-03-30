@@ -6,7 +6,7 @@ export default function Header () {
         <>  
             <header>
                 <h1>🌎 my travel journal</h1>
-                </header>
+            </header>
         </>
     )
 }
