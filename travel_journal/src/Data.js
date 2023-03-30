@@ -1,5 +1,6 @@
 const data = [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsLink: "https://www.google.com/maps/place/Fuji+Da%C4%9F%C4%B1/@35.3606199,138.692344,13z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA",
@@ -9,6 +10,7 @@ const data = [
         imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
     },
     {
+        id: 2,
         title: "Sydney Opera House",
         location: "Australia",
         googleMapsLink: "https://www.google.com/maps/place/Sidney+Opera+Binas%C4%B1/@-33.8567844,151.213108,17z/data=!3m2!4b1!5s0x6b12ae67d234a27f:0xd6d4e9380ca1e32f!4m6!3m5!1s0x6b12ae665e892fdd:0x3133f8d75a1ac251!8m2!3d-33.8567844!4d151.2152967!16zL20vMDZfbm0",
@@ -18,6 +20,7 @@ const data = [
         imageUrl: "https://source.unsplash.com/JmuyB_LibRo"
     },
     {
+        id: 3,
         title: "Geirangerfjord",
         location: "Norway",
         googleMapsLink: "https://www.google.com/maps/place/Geirangerfjord/@62.1045655,6.7950453,10z/data=!3m1!4b1!4m6!3m5!1s0x46169d427b268c51:0xb8c99540dcc397fe!8m2!3d62.101506!4d7.0940817!16zL20vMDZ4eXFi",

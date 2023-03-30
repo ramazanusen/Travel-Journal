@@ -10,6 +10,8 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0 auto;
   width: 50vw;
+  box-sizing: border-box;
+  background-color: white;
 }
 
 code {
@@ -24,4 +26,41 @@ header {
   margin: 0;
   text-align: center;
   color: white;
+  border-radius: 2px;
+}
+
+#location-country {
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #918E9B;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+
+.destination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.destination-container:last-child {
+  border-bottom: none;
+}
+
+#destination-info {
+  margin-left: 1.25em;
+  width: 35em;
+}
+
+#destination-image img {
+  width: 8em;
+  height: 10.5em;
+  margin: 1em;
+  border-radius: 5px;
+  object-fit: cover;
 }
